@@ -23,9 +23,7 @@
             <p>Under kommer det informasjon om hva jeg tenker om faget.</p>
             <p>Har store forventninger til kurset og tenker at det blir artig å lære mer om teknologien som ligger bak nettsider</p>
         </header>
-    </section>
 
-    <section>
         <h2>Questions Assignment 1</h2>
         <ol>
             <li>What does the server in the client server architecture do?
@@ -162,15 +160,44 @@
         </ol>
 
         <h2>Questions assignment 3</h2>
+        <ol>
+            <li>What is the difference between position: absolute and position: fixed?
+                <ul>
+                    <li>
+                        Position fixed gjør slik at elementet blir stående på samme sted selvom man scroller opp og ned på siden.
+
+                    </li>
+                    <li>
+                        Position absolute er plasert relativt til sin nærmeste "foreldre". Hvis den ikke har noen "foreldre"
+                        vil den ta utgangspunktet i elementet body. Elementet følger med når du scroller.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                With CCS3, how do we access the third element within another element?
+                <ul>
+                    <li>
+                        I CCS3 har man noe som hter nth-child, som gjør det slik at du kan iterer over
+                        liste elementene eller hvilke som helst element og velge det elementet som du ønsker.
+                        Kan ta annenhvert element, eller bare vært syvende element. Kan også spesifisere barn nr
+                        for å bare ta det elementet. Kan skrive nth-child(3) for å velge bare det tredje barnet. Eller da
+                        det tredje elementet.
+                        Så for å akksesere det tredje elementet i et annet element må man først skrive det første
+                        elementet type "div" og så det neste elementet etterfulgte av nth-child(3).
+                    </li>
+                </ul>
+            </li>
+        </ol>
 
 
+
+
+        <footer>
+            <p>
+                Created by Håvard Løkensgard &copy;
+            </p>
+        </footer>
     </section>
-
-    <footer>
-        <p>
-            Created by Håvard Løkensgard &copy;
-        </p>
-    </footer>
 
 </body>
 </html>
