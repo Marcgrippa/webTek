@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../webTekStorPc/.idea/untitled.iml" filepath="$PROJECT_DIR$/../webTekStorPc/.idea/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webTek.iml" filepath="$PROJECT_DIR$/.idea/webTek.iml" />
     </modules>
   </component>
