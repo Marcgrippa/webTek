@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="shortcut icon" href ="img/favicon-16x16.png" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class ="header ">
+        <h1>Håvard Løkensgard</h1>
+        <p></p>
+    </header>
+
+    <section>
+        <header>
+            <h2> This is me </h2>
+            <img border = 2px class = "imgSize150" src="img/meg.jpg" height="348" width="363" >
+            <p>Har erfaring med python, java og diverse web utviklingsverktøy. </p>
+            <p>Under kommer det informasjon om hva jeg tenker om faget.</p>
+            <p>Har store forventninger til kurset og tenker at det blir artig å lære mer om teknologien som ligger bak nettsider</p>
+        </header>
+    </section>
+
+    <section>
+        <h2>Questions Assignment 1</h2>
+        <ol>
+            <li>What does the server in the client server architecture do?
+                <ul>
+                    <li>Serveren komponenten inneholder en funksjon eller en tjeneste til en eller flere kunder, som initierer forespørsler om slike tjenester.
+                    </li>
+                </ul>
+            </li>
+            <li>What does the client do?
+                <ul>
+                    <li>
+                        En klient er et stykke maskinvare eller programvare som har tilgang til en tjeneste som gjøres tilgjengelig av en server.
+                    </li>
+                </ul>
+            </li>
+            <li>What is an IP address?
+                <ul>
+                    <li>
+                        En unik kombinasjon av tall atskilt med punktum , og som identifiserer hver datamaskin ved hjelp av Internett -protokollen for å kommunisere.
+                    </li>
+                </ul>
+            </li>
+            <li>What is DNS?
+                <ul>
+                    <li>
+                        De opprettholder en katalog av domenenavn og oversette dem til adresser Internet Protocol (IP).
+                    </li>
+                </ul>
+            </li>
+            <li>What is the difference between the Internett and WWW?
+                <ul>
+                    <li>
+                        Internett er et massivt nettverk av nettverk . Det knytter millioner av datamaskiner sammen globalt , danner et nettverk der alle datamaskiner kan kommunisere med en annen datamaskin , så lenge de er begge koblet til Internett . Informasjon som reiser over Internett gjør det via en rekke språk som kalles protokoller.
+                    </li>
+                    <li>
+                        The World Wide Web , eller rett og slett Web , er en måte å få tilgang til informasjon på mellom av Internett. Det er en informasjonsdelingmodell som er bygget på toppen av Internett. Web bruker HTTP -protokollen , bare ett av språkene som snakkes over Internett, til å overføre data .
+                    </li>
+                </ul>
+            </li>
+            <li>Explain what HTML is.
+                <ul>
+                    <li>
+                        Hypertext Markup Language, et standardisert system for merking av tekstfiler for å oppnå font, farge , grafisk , og hyperlink effekter på WWW.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Questions assignment 2</h2>
+        <ol>
+            <li>Why does inline style CSS override rules defined in style elements and external stylesheets?
+                <ul>
+                    <li>
+                        Det er tre mulige måter å legge til CSS.
+                        <ul>
+                            <li>
+                                External style sheet: Kan endre hele utsene på siden ved å endre en fil. Det
+                                krever at hver side linker til CSS'en i link-elementet.
+                            </li>
+                            <li>
+                                Internal style sheet: Brukes for å endre en enkelt side og blir definert ved å
+                                bruke style-elementet i head-elementet.
+                            </li>
+                            <li>
+                                Inline style: Brukes for å endre et singelt element på siden. Bruker også style-elementet
+                                men blir skrevet dirkete etter hoved-elementet. "h1 style = "color:blue;"
+                            </li>
+                        </ul>
+                        De forskjellige måtene blir generelt satt i rekkefølge etter hvor prioritert de er. I praksis er det
+                        koden som blir lastet sist som kommer til å gjelde.
+                        <ol>
+                            <li>
+                                Inline style ( i HTML-elementet)
+                            </li>
+                            <li>
+                                External and internal style sheets (i head-elementet)
+                            </li>
+                            <li>
+                                Browser default
+                            </li>
+                        </ol>
+
+
+
+                    </li>
+                </ul>
+            </li>
+            <li>Give a brief example of when to use ID and when to use class in CSS.
+                <ul>
+                    <li>
+                        ID er unik, hvert element kan bare ha en ID og hver side kan bare ha et element med den ID'en.
+                        Den kan altså bare brukes en gang.
+                        Hvis man bruker ID'en flere ganger vil ikke CSS koden gå igjennom valideringen.
+                        Med en class kan du bruke den så mange ganger du vil, type du kan lage en classe som du bruker på alle
+                        bilder på siden din. Du kan også bruke flere klasser på samme element.
+
+                    </li>
+                </ul>
+            </li>
+            <li>What does RGBA mean and what colors can you express with it?
+                <ul>
+                    <li>
+                        RGBA står for 'red green blue alpha'. Det er bare en RGB modell med en ekstra alpha informasjon.
+                        Du kan vise alle farger som kan lages med RGB og A brukes som for å få frem en transparang illusjon, kan se
+                        gjennom fargen. Hvis den A = 100% vil du ha fargen vist av RGB, men er den på 0% vil RGB fargen bli helt
+                        gjennomsiktig.
+
+                    </li>
+                </ul>
+            </li>
+            <li>Why do we include CSS files inside the head element and not inside the body element?
+                <ul>
+                    <li>
+                        Fordi elementene i head vil bli lastet opp før body. Som vil si at stilen på siden vil være
+                        lastet opp før selve innholder bli. Ting som bakgrunsfarge og andre elementer vil dermed dukke
+                        opp på skjermen veldig raskt.
+                        Hvis du linker CSS filen i body vil nettsiden også måtte oppdatere seg hver gang den passere den
+                        kode linjen.
+
+                    </li>
+                </ul>
+            </li>
+            <li>What CSS selector matches all the p elements inside the article element in the following HTML?
+                <img  style = "float: right" class ="pythonImg" = 2px src="img/htmlkode.png"/>
+                <ul>
+                    <li>
+                        For å bare endre på p-elementene som ligger i article-elementet må du først gå inn i article-elementet
+                        delen. Ved å skrive "article p" vil man referere til p-elementene i article-elementet.
+
+                    </li>
+                </ul>
+            </li>
+
+        </ol>
+
+        <h2>Questions assignment 3</h2>
+
+
+    </section>
+
+    <footer>
+        <p>
+            Created by Håvard Løkensgard &copy;
+        </p>
+    </footer>
+
+</body>
+</html>
