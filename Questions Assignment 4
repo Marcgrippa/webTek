@@ -1,0 +1,26 @@
+1. Why do mobile phones usually ignore auto play on video elements?
+Det er for å spare mobildata og la brukeren selv velge om han/hun ønsker å se filmen.
+Det krever mindre opplasingstid hvis man kan velge først om man vil se filmen eller ikke, brukeren
+vil dermed bli mindre irritert på lange laste tider på siden.
+
+2. What will the CSS snippet at det end of this section do if the visitor is browsing on a device with
+ 320 * 568 resolution?
+ Siden alle if elementene er True, vil endre på elementet som har id = logo til at den ikke vises. Pga
+ display: none.
+
+3. Mention some of the advantage of having a single responsive website instead of dedicated versions like
+m.til.no for mobile and til.no for desktop.
+ Mobil sidene er designet for å funke på mobiler og har ingen sammenheng med den ordinære siden.
+ Det finnes elementer på mobil versjoner som ikke finnes på den vanlige siden. Ofte er det mindre
+ innhold og mer fokusert på mobil sidene, slik at noen av elementene er droppet vekk.
+ Hvis siden ikke har noen mobil side blir ofte elmentene flyttet rundt slik at det ser bedre ut på
+ en mobil skjerm og for at brukeren skal slippe å scrolle sidelengs.
+
+ Det er enklere å finne en responsive webside ved en søkemotor enn en mobil versjon
+
+ Det er mindre vedlikehold ved å bare ha en responsive webside
+
+ Responsive websider pleier å være litt tregere å laste.
+
+ Det er vanskeligere å få til komplekse sider ved å bare ta i bruk responsive webside.r
+    
