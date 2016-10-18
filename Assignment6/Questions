@@ -1,0 +1,14 @@
+1: Ved å bruke "===" spør man om verdien og typen er lik, ikke bare verdien.
+Her er da verdien lik og man ville fått True ved å bruke "=="
+
+2: Method spesifiserer hvordan man skal sende dataen som blir lagt til i form.
+
+3: Fordi ved å bruke get blir data lagt til i form-data i URLen og er dermed synlig i URLen
+
+4: En kombinasjon av de to validerings er bedre fordi man kan få validert alle elementene
+på en bedre og mer forstålig måte.
+
+5:
+En input tag kan ta inn input fra brukeren og kan variere på mange måter avhengig av attributene som er tatt i bruk
+En textarea tag kan ta inn evig mange tegn.
+Man bruker textarea når man ønsker å at brukeren skal kunne skrive mer og bruke hele setninger.

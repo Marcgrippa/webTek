@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="css/style2.css">
+    <meta charset="utf-8">
+    <title>IT2805 assignment 5: JavaScript introduction</title>
+
+    <style>
+      .box{
+        /* Sets the size and position of each box */
+        width: 200px;
+        height: 200px;
+        background-color: #185D8B;
+        margin: 10px;
+
+        /* Sets the font within each box*/
+        color: #fff;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 200px;
+        font-size: 100px;
+      }
+
+      .buttons{
+        width: 200px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div id="screen">
 
-      <video controls autoplay loop muted>
-        <source src="videos/hovedbygget.mp4" type="video/mp4">
-        <source src="videos/hovedbygget.ogv" type="video/ogv">
-        <source src="videos/hovedbygget.webm" type="video/webm">
+    <h1 id='title'></h1>
 
-        <img src="img/hovedbygget.png" title="Your browser does not support the <video> tag" />
-      </video>
-
-      <div id="title">
-        <img src="img/ntnu.png" />
-      </div>
-
+    <h2>Part 5</h2>
+    <div class="buttons">
+      <button>Display: none </button>
+      <button>Visibility: hidden</button>
+      <button>Reset</button>
     </div>
+    <div class="box" id='magic'> 1 </div>
+    <div class="box"> 2 </div>
 
-    <article class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-      </p>
-    </article>
+    <h2>Part 6</h2>
+    <ul id='tech'>
+    </ul>
 
   </body>
 </html>

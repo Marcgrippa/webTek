@@ -1,0 +1,17 @@
+
+body{
+    background-color: ghostwhite;
+    margin: 5%;
+}
+
+
+label {
+    color: dimgrey;
+    font-size: large;
+}
+
+input {
+    padding: 2px 2px;
+    margin: 8px 0;
+
+}
