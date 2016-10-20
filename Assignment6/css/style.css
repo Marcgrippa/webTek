@@ -4,7 +4,6 @@ body{
     margin: 5%;
 }
 
-
 label {
     color: dimgrey;
     font-size: large;
@@ -13,5 +12,9 @@ label {
 input {
     padding: 2px 2px;
     margin: 8px 0;
+}
 
+#form1 {
+    color: dimgray;
+    font-size:medium;
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/css" href="css/stylexml.css" ?>
 
 
-<tax>
+<taxes>
     <hero>
         <name>Nick Nedd</name>
         <gender>Male</gender>
@@ -48,4 +47,4 @@
         <tax>597 464</tax>
     </hero>
 
-</tax>
+</taxes>
